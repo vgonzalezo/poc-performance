@@ -1,0 +1,11 @@
+kind: "BuildConfig"
+apiVersion: "v1"
+metadata:
+  name: "performance-pipeline"
+spec:
+  source:
+    git:
+      uri: "https://github.com/vgonzalezo/poc-performance"
+  strategy:
+    jenkinsPipelineStrategy:
+      jenkinsfilePath: Jenkinsfile

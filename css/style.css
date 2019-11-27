@@ -1,0 +1,18 @@
+.table {
+  margin-top: 15px;
+  width: 400px;
+  height: 200px;
+}
+
+.jumbotron {
+  height: 110px;
+}
+
+.titulo {
+  text-align: right;
+  margin-top: -55px;
+}
+
+.imagen {
+  margin-top: -110px;
+}
